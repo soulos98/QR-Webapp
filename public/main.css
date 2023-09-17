@@ -1,0 +1,35 @@
+* {
+    background-color: #F1EFEF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.QueryContainer{
+    display: grid;
+    grid-template-rows:  1fr 1fr ;
+    grid-template-columns: auto 1fr auto;
+}
+.QueryTextBar{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.QueryImage{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.mainblock{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#qrValue{
+    width: 255px;
+    height: 255px;
+}
