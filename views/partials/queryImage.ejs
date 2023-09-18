@@ -2,7 +2,7 @@
     <div>
         <% if(locals.qrCode) {%>
             <!-- Note will need to change this to qrCode png image -->
-            <div id="qrValue"><%= qrCode %></div>
+            <img id="qrValue" src="<%= qrCode %>" alt="">
         <%} else {%>
             <img src="pictures/doggo.jpg" alt="doggo">
         <% } %>
