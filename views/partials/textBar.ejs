@@ -1,10 +1,15 @@
 <section class="QueryTextBar mainblock">
     <div>
-        <form id="UserURL" method="post">
-            <label for="UserInput">Url: </label>
-            <br>
-            <input type="text" id="UserInput" name="UserInput">
-            <input type="submit" value="Generate" formaction="/generate">
-        </form>
+        <div class="urlTitleContainer">
+            <h1 id="Title">QR-Code Generator</h1>
+            <h2>Try below!</h2>
+        </div>
+
+        <div class="UserURLContainer">
+            <form method="post">
+                <input type="text" id="UserInput" name="UserInput" placeholder="Generate...">
+                <input type="submit" id="userInputButton" value="Go!" formaction="/generate">
+            </form>
+        </div>
     </div>
 </section>
